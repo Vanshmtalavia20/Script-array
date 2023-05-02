@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ARRAY SLIDER</title>
+</head>
+<body>
+    <img src="c.png" alt="" height="600px" width="100%"><br><br>
+    <img src="dog.png" alt="" height="600px" width="100%"><br><br>
+    <img src="OIP.png" alt="" height="600px" width="100%"><br><br>
+    <img src="R.png" alt="" height="600px" width="100%"><br><br>
+
+    <script>
+
+    index=0;
+
+     function slider()
+     {
+         // images = document.getElementsByClassName('x');
+
+         images = document.getElementsByTagName('img');
+
+//console.log(images);
+ //images[1].style.display = "none";
+
+ for(i=0;i<images.length;i++)
+ {
+     images[i].style.display="none";
+ }
+
+
+     }
+
+     slider()
+
+    
+
+    </script>
+</body>
+</html>
